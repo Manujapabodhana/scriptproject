@@ -5,7 +5,7 @@ body{
     align-items: center;
     height: 100vh;
     justify-content: center;
-    background-color: pink;
+    background-color: rgb(97, 102, 112);
 }
 
 h1{
@@ -15,6 +15,7 @@ h1{
     color: white;
     text-shadow: 2px 4px 2px rgba(0, 0, 0, .3);
     white-space: nowrap;
+    font-weight: 200;
 
 }
 
@@ -25,10 +26,26 @@ h1{
     margin: 10px;
     font-size: 30px;
     min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-image: url(images/tom.png);
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0,0, 0.3);
+    cursor: pointer;
+    font-weight: 200;
 }
 
 .container{
 
     text-align: center;
 
+}
+
+.btn:hover{
+    color: pink;
+}
+
+.btn:active{
+    background-size: 105%;
 }
